@@ -1,0 +1,43 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
+.assign-3-shape-1,
+.assign-3-shape-2,
+.assign-3-shape-3,
+.assign-3-shape-4 {
+
+    width: 400px;
+    height: 400px;
+    background-color: #EEEEEE ;
+    margin-bottom: 15px;
+    background-image: url("../css-assignment-5-8.png");
+}
+
+.assign-3-shape-1 {
+
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.assign-3-shape-2 {
+
+    background-repeat: repeat-y;
+    background-position: right bottom;
+}
+
+.assign-3-shape-3 {
+
+    background-repeat: repeat-x;
+    background-position: center bottom;
+}
+
+.assign-3-shape-4 {
+
+    color: white;
+}

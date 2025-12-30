@@ -1,0 +1,111 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
+/* Valid, It's okay to start with _ */
+
+/* 
+    عادي لأن مفيش مشكلة إن الإسم يبدأ ب 
+    _
+*/
+
+._user-name {
+}
+
+
+
+/* Valid, It's okay to start with - */
+
+/* 
+    عادي لأن مفيش مشكلة إن الإسم يبدأ ب 
+    -
+*/
+
+.-user-name {
+}
+
+
+
+/* NOT Valid, Can't start with a number */
+
+/*
+  مينفعش الإسم يبدأ برقم
+*/
+
+.1user-name {
+}
+
+
+
+/* NOT Valid, Can't start with @ */
+
+/*
+    مينفعش الإسم يبدأ ب
+    @
+*/
+
+.@user-name {
+}
+
+
+
+/*
+    NOT Valid, Can't include @
+    
+    If you want to have @ included,
+    you must add \ before it like this
+
+    .user\@name {
+    }
+*/
+
+/*
+    مينفعش الإسم يكون فيه
+    @
+
+    إلا لو حطيت
+    \
+    قبلها
+
+    زي كده مثلا
+
+    .user\@name {
+    }
+*/
+
+.user@name {
+}
+
+
+
+/*
+    Valid, you can have numbers included in the name of the selector,
+    but you Can't put the numbers in the beginning of the name
+
+    test1 <--- valid
+    1test <--- NOT valid
+*/
+
+/* 
+    عادي لأن مفيش مشكلة إن الإسم يكون فيه أرقام
+    بشرط إن الأرقام متكونش في بداية الإسم 
+    
+    test1 <--- عادي
+    1test <--- غلط
+*/
+
+._user10name {
+}
+
+
+
+/*valid, It's okay to be only a character */
+
+/* عادي الإسم يكون حرف واحد */
+
+.u {
+}

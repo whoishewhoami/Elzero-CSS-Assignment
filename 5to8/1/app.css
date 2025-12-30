@@ -1,0 +1,33 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
+.assign-1-shape-1,
+.assign-1-shape-2,
+.assign-1-shape-3 {
+
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 23px;
+    color: white;
+}
+
+.assign-1-shape-1 {
+
+    background-color: #8A2BE2;
+}
+
+.assign-1-shape-2 {
+    
+    background-color: rgb(138 43 226 / 0.5);
+}
+
+.assign-1-shape-3 {
+    
+    background-color: hsl(271 76% 53% / 10%);
+}
