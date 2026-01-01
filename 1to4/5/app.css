@@ -57,7 +57,7 @@
     NOT Valid, Can't include @
     
     If you want to have @ included,
-    you must add \ before it like this
+    you must add \ before it; like this:
 
     .user\@name {
     }
@@ -84,7 +84,7 @@
 
 /*
     Valid, you can have numbers included in the name of the selector,
-    but you Can't put the numbers in the beginning of the name
+    as long as the selector name doesn't begin with a number.
 
     test1 <--- valid
     1test <--- NOT valid
@@ -103,7 +103,7 @@
 
 
 
-/*valid, It's okay to be only a character */
+/* valid, It's okay for the selector to be only one character */
 
 /* عادي الإسم يكون حرف واحد */
 

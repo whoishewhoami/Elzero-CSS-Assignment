@@ -1,7 +1,16 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
 .element.element-1,
 .element.element-2,
 .element.element-3 {
-    width: 400px;
+
+    width: 375.436px;
     background-color: #EEEEEE;
     border-left-width: 5px;
     border-left-style: solid;
@@ -12,14 +21,17 @@
 }
 
 .element.element-1 {
+
     border-left-color: #E91E63;
 }
 
 .element.element-2 {
+
     border-left-color: #E91E63;
     visibility: hidden;
 }
 
 .element.element-3 {
+    
     border-left-color: #009688;
 }
