@@ -1,0 +1,19 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
+p {
+
+    background-color: #A52A2A;
+    color: white;
+    width: fit-content;
+    max-width: 400px;
+    max-height: 30px;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}

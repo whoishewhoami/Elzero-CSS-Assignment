@@ -1,0 +1,31 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
+.first,
+.second,
+.third {
+
+    font-family: Arial;
+    background-color: #EEEEEE;
+    padding: 17px;
+    width: 366px;
+    margin-bottom: 20px;
+}
+
+.second {
+
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+.third {
+
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

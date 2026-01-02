@@ -1,0 +1,28 @@
+/*
+    اللهم صل وسلم على عبدك ورسولك وحبيبك وخليلك
+    وجليسك على العرش يوم القيامة
+    محمد صلى الله عليه وسلم
+*/
+
+
+
+p {
+
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.one {
+
+    text-transform: uppercase;
+}
+
+.two {
+
+    text-transform: capitalize;
+}
+
+.three {
+
+    text-transform: lowercase;
+}
